@@ -97,7 +97,7 @@
     align-self: center; 
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr/ 100%;
+    grid-template-rows: 1fr 1fr 1fr/ 90%;
     margin-top: 110px;
     margin-bottom: 90px;
 }
@@ -191,8 +191,7 @@
 .section_item_1_1_mobileMode{
     grid-row-start: 1;
     grid-column-start: 1;
-    width: 369px;
-    height: 416px;
+    width: 100%;
     overflow: hidden;
     justify-self: center;
     align-self: center;

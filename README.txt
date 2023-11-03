@@ -6,10 +6,11 @@
 
 // Hotel Website for Hamsters based off an adobe xd prototype. To help with Responsiveness I made 3 css files for Desktop, Tablet, and Mobile Mode(there's a lot of redundant lines so sorry about that)
 
-// 
+//11-03-23 3:00pm changes: After Peer Review, I was able to fix the white space on the edge, a few items were just sticking out so after reducing them
 
 // Person Review By: Aidan Younathan
 
 // Peer Review Comments: This website looks good in desktop but everything is really large, maybe change the size of the site to fit the viewport somehow so you dont have to scroll left and right
 for tablet there is a large gap on the right side of the site so maybe there is something pushing it over to the left
 For Mobile its sort of the same issue with the desktop is having where its a little too wide for the viewport. Other than that everything is good, its a solid base and with just a few revisions it can be better but I think its solid so far.
+

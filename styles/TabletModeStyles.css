@@ -428,7 +428,7 @@
     background-color: #000324;
     display: grid;
     grid-template-rows: 45px 45px 45px 45px 45px;
-    grid-template-columns: 177px 15px 177px 15px 177px 15px 177px 15px 177px;
+    grid-template-columns: 177px 15px 177px 15px 177px 15px;
     padding-left: 96px;
     padding-right: 96px;
     padding-top:24px;
