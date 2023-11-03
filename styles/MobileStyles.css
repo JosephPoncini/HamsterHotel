@@ -1,20 +1,4 @@
-li{
-    text-align: left;
-    font: normal normal normal 15px/20px 'Source Sans 3';
-    letter-spacing: 0px;
-    color: #1A1B26;
-    opacity: 1;
-}
-
-/* || UTILITIES */
-
-.nav-link:hover{
-    color: white;
-    border: 2px solid #FFFFFF;
-    margin: -2px;
-}
-
-.nav_grid{
+.nav_grid_mobileMode{
     width: 100%;
     padding-top: 10px;
     display: grid;
@@ -23,23 +7,23 @@ li{
     align-items:end;
 }
 
-.tab1{
+.tab1_mobileMode{
     grid-column-start: 2;
     padding-bottom: 7px;
 }
 
-.tab2{
+.tab2_mobileMode{
     grid-column-start: 3;
     padding-bottom: 7px;
 }
 
-.tab3{
+.tab3_mobileMode{
     grid-column-start: 4;
     padding-right: 10px;
     padding-bottom: 7px;
 }
 
-.logo{
+.logo_mobileMode{
     grid-column-start: 5;
     display: flex;
     justify-content: center;
@@ -47,23 +31,24 @@ li{
     padding-bottom: 7px;
 }
 
-.tab4{
+.tab4_mobileMode{
     grid-column-start: 6;
     padding-left: 10px;
     padding-bottom: 7px;
 }
 
-.tab5{
+.tab5_mobileMode{
     grid-column-start: 7;
     padding-bottom: 7px;
 }
 
-.tab6{
+.tab6_mobileMode{
     grid-column-start: 8;
     padding-bottom: 7px;
 }
 
-.nav_bar_text{
+
+.nav_bar_text_mobileMode{
     color: white;
     align-items: end;
     justify-content: center;
@@ -71,7 +56,7 @@ li{
     font-family: Dosis, serif;
 }
 
-.innerHeaderText{
+.innerHeaderText_mobileMode{
     text-align: center;
     font: normal normal normal 45px/57px Dosis;
     letter-spacing: 0px;
@@ -80,7 +65,7 @@ li{
     margin-bottom: 14px;
 }
 
-.innerHeaderSubText{
+.innerHeaderSubText_mobileMode{
     text-align: center;
     font: normal normal normal 16px/20px 'Source Sans 3';
     letter-spacing: 0px;
@@ -88,7 +73,7 @@ li{
     opacity: 1;
 }
 
-.header{
+.header_mobileMode{
     width: 1920; 
     background-image: url('../assets/header.jpg');
     background-size: cover; 
@@ -102,7 +87,7 @@ li{
     /* overflow: hidden; */
 }
 
-.section1{
+.section1_mobileMode{
     width: 1920px; 
     height: 616px;
     display: flex;
@@ -118,7 +103,7 @@ li{
     margin-bottom: 90px;
 }
 
-.section2{
+.section2_mobileMode{
     width: 1920; 
     background-image: url('../assets/bg2.jpg');
     background-size: cover; 
@@ -129,7 +114,7 @@ li{
 
 }
 
-.section3{
+.section3_mobileMode{
     width: 1920px; 
     display: flex;
     justify-content: center;
@@ -141,7 +126,7 @@ li{
     margin-bottom: 100px;
 }
 
-.insideHeader{
+.insideHeader_mobileMode{
     width: 945px;
     height: 232px;
     background: #000324 0% 0% no-repeat padding-box;
@@ -152,7 +137,7 @@ li{
     align-self: center;
     flex-direction: column;
 }
-.section4{
+.section4_mobileMode{
     width: 1920;
     background-image: url('../assets/bg.jpg');
     background-size: cover; 
@@ -170,7 +155,7 @@ li{
     padding-bottom: 170px;
 }
 
-.section5{
+.section5_mobileMode{
     width: 1920; 
     display: flex;
     justify-content: center;
@@ -183,7 +168,7 @@ li{
     margin-bottom: 100px;
 }
 
-.footer{
+.footer_mobileMode{
     width: 1920;
     background-color: #000324;
     display: flex;
@@ -194,7 +179,7 @@ li{
     padding-bottom:80px;
 }
 
-.section1grid{
+.section1grid_mobileMode{
     width: 1140;/*1136*/
     width: 1920px; 
     height: 416px;
@@ -202,7 +187,7 @@ li{
     grid-template: 1fr 1fr / 369px 1fr 1fr 1fr;
 }
 
-.section_item_1_1{
+.section_item_1_1_mobileMode{
     grid-area: 1/1/3/2;
     width: 369px;
     height: 416px;
@@ -212,7 +197,7 @@ li{
 
 
 }
-.section_item_1_2{
+.section_item_1_2_mobileMode{
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 5;
@@ -220,26 +205,26 @@ li{
     flex-direction: column;
     padding: 14px;
 }
-.section_item_1_3{
+.section_item_1_3_mobileMode{
     grid-row-start: 2;
     grid-column-start: 2;
     justify-self: center;
     align-self: center;
 }
-.section_item_1_4{
+.section_item_1_4_mobileMode{
     grid-row-start: 2;
     grid-column-start: 3;
     justify-self: center;
     align-self: center;
 }
-.section_item_1_5{
+.section_item_1_5_mobileMode{
     grid-row-start: 2;
     grid-column-start: 4;
     justify-self: center;
     align-self: center;
 }
 
-.section1_text{
+.section1_text_mobileMode{
     text-align: left;
     font: normal normal normal 35px/44px Dosis;
     letter-spacing: 0px;
@@ -247,7 +232,7 @@ li{
     opacity: 1;
 }
 
-.section1_subtext{
+.section1_subtext_mobileMode{
     text-align: left;
     font: normal normal normal 16px/20px 'Source Sans 3';
     letter-spacing: 0px;
@@ -255,7 +240,7 @@ li{
     opacity: 1;
 }
 
-.section2_card_title_text{
+.section2_card_title_text_mobileMode{
     text-align: left;
     font: normal normal normal 25px/32px Dosis;
     letter-spacing: 0px;
@@ -263,7 +248,7 @@ li{
     opacity: 1;
 }
 
-.section2_card_subTitle_text{
+.section2_card_subTitle_text_mobileMode{
     text-align: left;
     font: normal normal bold 16px/20px Sans Pro 3;
     letter-spacing: 0px;
@@ -271,7 +256,7 @@ li{
     opacity: 1;
 }
 
-.section_item_3_1{
+.section_item_3_1_mobileMode{
     grid-area: 1/1/1/3;
     display: flex;
     justify-content: center;
@@ -283,7 +268,7 @@ li{
     opacity: 1;
 }
 
-.section_item_3_2{
+.section_item_3_2_mobileMode{
     width: 561px;
     height: 234px;
 
@@ -291,18 +276,18 @@ li{
 
 }
 
-.section_item_3_3{
+.section_item_3_3_mobileMode{
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.section_item_3_4{
+.section_item_3_4_mobileMode{
 
 }
 
-.section_item_3_5{
+.section_item_3_5_mobileMode{
     width: 561px;
     height: 234px;
     overflow: hidden;
@@ -311,18 +296,18 @@ li{
 
 }
 
-.section_item_3_6{
+.section_item_3_6_mobileMode{
     width: 561px;
     height: 234px;
     overflow: hidden;
 
 }
 
-.section_item_3_7{
+.section_item_3_7_mobileMode{
 
 }
 
-.our_rooms{
+.our_rooms_mobileMode{
     text-align: center;
     font: normal normal normal 35px/44px Dosis;
     letter-spacing: 0px;
@@ -330,7 +315,7 @@ li{
     opacity: 1;
 }
 
-.section3_Titles{
+.section3_Titles_mobileMode{
     text-align: left;
     font: normal normal normal 25px/32px Dosis;
     letter-spacing: 0px;
@@ -338,7 +323,7 @@ li{
     opacity: 1;
 }
 
-.section3_blue_txt{
+.section3_blue_txt_mobileMode{
     text-align: left;
     font: normal normal normal 16px/20px 'Source Sans 3';
     letter-spacing: 0px;
@@ -346,7 +331,7 @@ li{
     opacity: 1; 
 }
 
-.section3_paragraph{
+.section3_paragraph_mobileMode{
     text-align: left;
     font: normal normal normal 16px/20px 'Source Sans 3';
     letter-spacing: 0px;
@@ -354,14 +339,14 @@ li{
     opacity: 1;
 }
 
-.section4_title{
+.section4_title_mobileMode{
     font: normal normal normal 35px/44px Dosis;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 
-.section4_subTitle_text{
+.section4_subTitle_text_mobileMode{
     text-align: top;
     font: normal normal normal 16px/20px 'Source Sans 3';
     letter-spacing: 0px;
@@ -369,7 +354,7 @@ li{
     opacity: 1;
 }
 
-.section4_text{
+.section4_text_mobileMode{
     text-align: center;
     font: normal normal bold 20px/25px 'Source Sans 3';
     letter-spacing: 0px;
@@ -377,49 +362,49 @@ li{
     opacity: 1;
 }
 
-.section_item_4_1{
+.section_item_4_1_mobileMode{
     grid-column: 1 / 5;
     grid-row: 1;
     display: flex;
     justify-content: center;
 }
 
-.section_item_4_2{
+.section_item_4_2_mobileMode{
     grid-column: 1 / 5;
     grid-row: 2;
     display: flex;
     justify-content: center;
 }
 
-.section_item_4_3{
+.section_item_4_3_mobileMode{
     grid-column: 1;
     grid-row: 3;
     display: flex;
     justify-content: center;
 }
 
-.section_item_4_4{
+.section_item_4_4_mobileMode{
     grid-column: 2;
     grid-row: 3;
     display: flex;
     justify-content: center;
 }
 
-.section_item_4_5{
+.section_item_4_5_mobileMode{
     grid-column: 3;
     grid-row: 3;
     display: flex;
     justify-content: center;
 }
 
-.section_item_4_6{
+.section_item_4_6_mobileMode{
     grid-column: 4;
     grid-row: 3;
     display: flex;
     justify-content: center;
 }
 
-.section_item_4_7{
+.section_item_4_7_mobileMode{
     grid-column: 1;
     grid-row: 4;
     display: flex;
@@ -427,7 +412,7 @@ li{
     align-self: flex-end;
 }
 
-.section_item_4_8{
+.section_item_4_8_mobileMode{
     grid-column: 2;
     grid-row: 4;
     display: flex;
@@ -435,7 +420,7 @@ li{
     align-self: flex-end;
 }
 
-.section_item_4_9{
+.section_item_4_9_mobileMode{
     grid-column: 3;
     grid-row: 4;
     display: flex;
@@ -443,7 +428,7 @@ li{
     align-self: flex-end;
 }
 
-.section_item_4_10{
+.section_item_4_10_mobileMode{
     grid-column: 4;
     grid-row: 4;
     display: flex;
@@ -451,7 +436,7 @@ li{
     align-self: flex-end;
 }
 
-.section_item_5_1{
+.section_item_5_1_mobileMode{
     height: 207px;
     grid-row: 1;
     background-color: #000324;
@@ -464,7 +449,7 @@ li{
     padding-bottom:50px;
 }
 
-.section_item_5_1_1{
+.section_item_5_1_1_mobileMode{
     grid-row: 1;
     grid-column: 1/10;
     display: flex;
@@ -478,7 +463,7 @@ li{
 
 }
 
-.section_item_5_1_2{
+.section_item_5_1_2_mobileMode{
     grid-row: 2;
     grid-column: 1;
     display: flex;
@@ -490,7 +475,7 @@ li{
     opacity: 1;
 }
 
-.section_item_5_1_3{
+.section_item_5_1_3_mobileMode{
     grid-row: 2;
     grid-column: 3;
     display: flex;
@@ -502,7 +487,7 @@ li{
     opacity: 1;
 }
 
-.section_item_5_1_4{
+.section_item_5_1_4_mobileMode{
     grid-row: 2;
     grid-column: 5;
     display: flex;
@@ -514,7 +499,7 @@ li{
     opacity: 1;
 }
 
-.section_item_5_1_5{
+.section_item_5_1_5_mobileMode{
     grid-row: 2;
     grid-column: 7;
     display: flex;
@@ -526,7 +511,7 @@ li{
     opacity: 1;
 }
 
-.section_item_5_1_6{
+.section_item_5_1_6_mobileMode{
     grid-row: 3;
     grid-column: 1;
     display: flex;
@@ -536,7 +521,7 @@ li{
 
 }
 
-.section_item_5_1_7{
+.section_item_5_1_7_mobileMode{
     grid-row: 3;
     grid-column: 3;
     display: flex;
@@ -545,7 +530,7 @@ li{
     overflow: hidden;
 }
 
-.section_item_5_1_8{
+.section_item_5_1_8_mobileMode{
     grid-row: 3;
     grid-column: 5;
     display: flex;
@@ -554,7 +539,7 @@ li{
     overflow: hidden;
 }
 
-.section_item_5_1_9{
+.section_item_5_1_9_mobileMode{
     grid-row: 3;
     grid-column: 7;
     display: flex;
@@ -563,7 +548,7 @@ li{
     overflow: hidden;
 }
 
-.section_item_5_1_10{
+.section_item_5_1_10_mobileMode{
     grid-row: 3;
     grid-column: 9;
     display: flex;
@@ -572,7 +557,7 @@ li{
     overflow: hidden;
 }
 
-.section_item_5_2{
+.section_item_5_2_mobileMode{
     height: 414px;
     grid-row: 2;
     background-image: url(../assets/hamsterreserve.jpg);
@@ -582,11 +567,11 @@ li{
 
 }
 
-.inputField{
+.inputField_mobileMode{
     font-size: 22px;
   }
 
-.button{
+.button_mobileMode{
     width: 177px;
     background-color:#006EDB; /* Green */
     border: none;
@@ -604,7 +589,7 @@ li{
     opacity: 1;
   }
 
-.footerTxt{
+.footerTxt_mobileMode{
     text-align: left;
     font: normal normal normal 16px/20px Source Sans Pro;
     letter-spacing: 0px;
@@ -613,7 +598,7 @@ li{
     margin: 23px;
 }
 
-.copyRight{
+.copyRight_mobileMode{
     text-align: left;
     font: normal normal normal 16px/20px Source Sans Pro;
     letter-spacing: 0px;
@@ -621,7 +606,7 @@ li{
     opacity: 1;
 }
 
-.CardButton{
+.CardButton_mobileMode{
     width: 150px;
     height: 50px;
     background-color:#006EDB; /* Green */
@@ -640,4 +625,3 @@ li{
     opacity: 1;
 }
 
-/* … */
